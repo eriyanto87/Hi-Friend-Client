@@ -1,0 +1,75 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  height: 100%;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding-bottom: 25px;
+  margin-top: 25px;
+}
+
+.messenger {
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  background: #fc9f9f;
+  border-bottom: 1px solid grey;
+}
+
+.messengerHeader {
+  display: flex;
+  padding-left: 15px;
+}
+
+.chat {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 20px;
+}
+
+.BotName {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.leftMessageBubble {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 20px 0px 0px 35px;
+  max-width: 250px;
+  padding: 15px;
+  background: lightgrey;
+  border-radius: 18px 18px 18px 0px;
+}
+
+button {
+  background: #669db3ff;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.inputArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-top: 1px solid grey;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  background: lightgrey;
+  border-radius: 5px;
+}
+
+.send {
+  margin-left: 10px;
+  cursor: pointer;
+}
