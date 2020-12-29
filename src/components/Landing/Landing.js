@@ -13,12 +13,10 @@ export default function Landing() {
         <section className="leftMessageBubble">
           <div className="BotName">BOT</div>
           <p className="message">
-            Hi, Friend! Welcome to my app. Here you can talk about anything and
-            everything without being judged! Do you have an account?
+            Hi, Friend! Welcome to my app. Do you have an account?
           </p>
-
           <button> Register </button>
-          <button>Sign in</button>
+          <button> Sign in </button>
         </section>
       </main>
       <form className="inputArea">
