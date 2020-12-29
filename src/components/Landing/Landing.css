@@ -13,7 +13,7 @@
 .messenger {
   display: flex;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 8px 8px 0px 0px;
   background: #fc9f9f;
   border-bottom: 1px solid grey;
 }
@@ -26,7 +26,7 @@
 .chat {
   display: flex;
   flex-flow: column wrap;
-  margin-bottom: 20px;
+  margin-bottom: 55px;
 }
 
 .BotName {
@@ -77,7 +77,7 @@ button {
 
 @media all and (min-width: 800px) {
   .landing {
-    margin: 120px auto;
+    margin: 100px auto;
     width: 55%;
   }
 }
