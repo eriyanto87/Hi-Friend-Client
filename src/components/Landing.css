@@ -73,3 +73,10 @@ button {
   margin-left: 10px;
   cursor: pointer;
 }
+
+@media all and (min-width: 800px) {
+  .landing {
+    margin: 88px auto;
+    width: 55%;
+  }
+}
