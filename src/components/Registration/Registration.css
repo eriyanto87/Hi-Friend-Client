@@ -1,24 +1,23 @@
 .registration-container {
   display: flex;
   flex-direction: column;
-  margin: 100px 28px 0px 28px;
+  margin: 100px auto 0 auto;
   text-align: center;
   justify-content: center;
   background: #edeaea;
-  padding: 35px 15px;
   border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 2px thistle;
 }
 
-.registration-info {
-  flex-direction: row;
+.registration-header {
+  background: #fc9f9f;
+  border-bottom: 1px solid black;
+  padding: 0 10px;
 }
 
 .name {
-  flex-direction: row;
-}
-
-.name input {
-  margin: 10px 0px;
+  margin: 30px 0 0 0;
 }
 
 .signin-section {
@@ -41,23 +40,7 @@ input {
 
 @media all and (min-width: 800px) {
   .registration-container {
-    padding: 35px 0px;
-  }
-
-  .signin-section {
-    text-align: center;
-    margin-bottom: 150px;
-  }
-
-  .name input {
-    width: 105px;
-  }
-
-  .registration-info input {
-    width: 220px;
-  }
-
-  .registration-container button {
-    width: 190px;
+    margin: 100px auto 0px auto;
+    width: 70%;
   }
 }

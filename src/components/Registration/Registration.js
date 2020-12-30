@@ -5,17 +5,22 @@ export default function Registration() {
   return (
     <>
       <div className="registration-container">
-        <h1>Register</h1>
-        <p>Create your account. It's free and only takes a minute!</p>
+        <section className="registration-header">
+          <h1>Register</h1>
+          <p>Create your account. It's free and only takes a minute!</p>
+        </section>
         <form>
           <section className="name">
-            <input type="text" placeholder="First Name" />
-            {"  "}
-            <input type="text" placeholder="Last Name" />
+            <p>
+              <input type="text" placeholder="First Name" />
+            </p>
+            <p>
+              <input type="text" placeholder="Last Name" />
+            </p>
           </section>
           <section className="registration-info">
             <p>
-              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Username" />
             </p>
             <p>
               <input type="text" placeholder="Password" />

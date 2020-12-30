@@ -5,11 +5,13 @@ export default function Signin() {
   return (
     <>
       <div className="signin-container">
-        <h1>Sign In Form</h1>
+        <section className="signin-header">
+          <h1>Sign In Form</h1>
+        </section>
         <form>
           <section className="signin-form">
             <p>
-              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Username" />
             </p>
             <p>
               <input type="text" placeholder="Password" />
