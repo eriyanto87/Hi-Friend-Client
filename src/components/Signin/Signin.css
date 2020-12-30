@@ -1,7 +1,7 @@
 .signin-container {
   display: flex;
   flex-direction: column;
-  margin: 100px 28px 0px 28px;
+  margin: 100px auto 0 auto;
   text-align: center;
   justify-content: center;
   background: #edeaea;
@@ -19,4 +19,11 @@
 .signin-container button {
   padding: 8px;
   width: 150px;
+}
+
+@media all and (min-width: 800px) {
+  .signin-container {
+    margin: 100px auto 0px auto;
+    width: 70%;
+  }
 }
