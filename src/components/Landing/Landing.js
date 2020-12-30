@@ -1,25 +1,30 @@
 import React from "react";
 import "./Landing.css";
+import { Link } from "react-router-dom";
 
 export default function Landing() {
   return (
     <div className="landing">
       <section className="messenger">
-        <header className="messengerHeader">
-          <h1 className="messengerTitle">Hi, Friend!</h1>
+        <header className="messenger-header">
+          <h1 className="messenger-title">Hi, Friend!</h1>
         </header>
       </section>
       <main className="chat">
-        <section className="leftMessageBubble">
-          <div className="BotName">BOT</div>
+        <section className="left-message-bubble">
+          <div className="bot-name">BOT</div>
           <p className="message">
             Hi, Friend! Welcome to my app. Do you have an account?
           </p>
-          <button> Register </button>
-          <button> Sign in </button>
+          <Link to={{ pathname: `/registration` }}>
+            <button> Register </button>
+          </Link>
+          <Link to={{ pathname: `/signin` }}>
+            <button> Sign in </button>
+          </Link>
         </section>
       </main>
-      <form className="inputArea">
+      <form className="input-area">
         <input
           className="input"
           type="text"

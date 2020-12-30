@@ -1,0 +1,15 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 28px 0px 28px;
+  text-align: center;
+  justify-content: center;
+  background: #edeaea;
+  padding: 35px 15px;
+  border-radius: 5px;
+}
+
+.signin-container button {
+  padding: 8px;
+  width: 150px;
+}

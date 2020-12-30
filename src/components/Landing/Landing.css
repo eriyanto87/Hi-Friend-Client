@@ -18,7 +18,7 @@
   border-bottom: 1px solid grey;
 }
 
-.messengerHeader {
+.messenger-header {
   display: flex;
   padding-left: 15px;
 }
@@ -29,13 +29,13 @@
   margin-bottom: 55px;
 }
 
-.BotName {
+.bot-name {
   display: flex;
   flex-direction: column;
   font-weight: bold;
 }
 
-.leftMessageBubble {
+.left-message-bubble {
   display: flex;
   flex-flow: column wrap;
   margin: 20px 0px 0px 35px;
@@ -55,7 +55,7 @@ button {
   font-size: 15px;
 }
 
-.inputArea {
+.input-area {
   display: flex;
   align-items: center;
   justify-content: center;

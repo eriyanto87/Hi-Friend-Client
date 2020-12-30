@@ -1,0 +1,63 @@
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 28px 0px 28px;
+  text-align: center;
+  justify-content: center;
+  background: #edeaea;
+  padding: 35px 15px;
+  border-radius: 5px;
+}
+
+.registration-info {
+  flex-direction: row;
+}
+
+.name {
+  flex-direction: row;
+}
+
+.name input {
+  margin: 10px 0px;
+}
+
+.signin-section {
+  text-align: center;
+  margin-bottom: 150px;
+  font-size: 18px;
+}
+
+input {
+  padding: 7px;
+  border-radius: 3px;
+  border: 1.5px solid black;
+}
+
+.registration-container button {
+  margin: 10px 0px;
+  padding: 10px;
+  width: 165px;
+}
+
+@media all and (min-width: 800px) {
+  .registration-container {
+    padding: 35px 0px;
+  }
+
+  .signin-section {
+    text-align: center;
+    margin-bottom: 150px;
+  }
+
+  .name input {
+    width: 105px;
+  }
+
+  .registration-info input {
+    width: 220px;
+  }
+
+  .registration-container button {
+    width: 190px;
+  }
+}
