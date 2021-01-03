@@ -1,0 +1,23 @@
+.home a {
+  color: black;
+  margin: 15px 0 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  text-shadow: 1.25px 1.25px 1px #fc9f9f;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.logout {
+  margin: 15px 0 0 12px;
+  border: none;
+  background: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-shadow: 1.25px 1.25px 1px #fc9f9f;
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import Signin from "../../components/Signin/Signin";
-import Home from "../../components/Home/Home";
+import Header from "../../components/Header/Header";
 
 export default function SigninRoute() {
   return (
     <>
-      <Home />
+      <Header />
       <Signin />
     </>
   );

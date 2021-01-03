@@ -38,6 +38,10 @@ input {
   width: 165px;
 }
 
+.error {
+  color: red;
+}
+
 @media all and (min-width: 800px) {
   .registration-container {
     margin: 100px auto 0px auto;

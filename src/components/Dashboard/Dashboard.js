@@ -1,5 +1,10 @@
 import React from "react";
+import "./Dashboard.css";
 
 export default function Dashboard() {
-  return <h1>Hello From Dashboard</h1>;
+  return (
+    <div className="dashboard">
+      <h1>Hello From Dashboard</h1>
+    </div>
+  );
 }
