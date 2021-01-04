@@ -15,16 +15,15 @@ export default function Signin() {
     context.setError(null);
     console.log(username.value, password.value);
     console.log(history);
-    const data = {
-      username: username.value,
-      password: password.value,
-    };
+
     AuthApiService.postLogin({
       username: username.value,
       password: password.value,
     })
       .then((signinReponse) => {
         TokenService.saveAuthToken(signinReponse.authToken);
+        console.log(signinReponse);
+        console.log("go to dashboard");
         history.push("/dashboard");
       })
       .catch((res) => {
@@ -48,10 +47,20 @@ export default function Signin() {
                 <section className="signin-form">
                   {context.error && <p className="error">{context.error}</p>}
                   <p>
-                    <input type="text" placeholder="Username" name="username" />
+                    <input
+                      type="text"
+                      placeholder="Username"
+                      name="username"
+                      required
+                    />
                   </p>
                   <p>
-                    <input type="text" placeholder="Password" name="password" />
+                    <input
+                      type="password"
+                      placeholder="Password"
+                      name="password"
+                      required
+                    />
                   </p>
                 </section>
                 <button>Sign In</button>

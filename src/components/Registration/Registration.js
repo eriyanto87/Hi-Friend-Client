@@ -74,7 +74,7 @@ export default function Registration() {
                   </p>
                   <p>
                     <input
-                      type="text"
+                      type="password"
                       placeholder="Password"
                       name="password"
                       required
