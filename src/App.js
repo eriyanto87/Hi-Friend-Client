@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import NotFoundRoute from "./routes/NotFoundRoute/NotFoundRoute";
 import LandingRoute from "./routes/LandingRoute/LandingRoute";
 import RegistrationRoute from "./routes/RegistrationRoute/RegistrationRoute";
 import SigninRoute from "./routes/SigninRoute/SigninRoute";
 import DashboardRoute from "./routes/DashboardRoute/DashboardRoute";
-import Footer from "./components/Footer/Footer";
 import Context from "./Context/Context";
 
 class App extends Component {
@@ -21,16 +20,13 @@ class App extends Component {
   render() {
     return (
       <Context.Provider value={this.state}>
-        <main>
+        <Switch>
           <Route exact path="/" component={LandingRoute} />
           <Route path="/registration" component={RegistrationRoute} />
           <Route path="/signin" component={SigninRoute} />
           <PrivateRoute path="/dashboard" component={DashboardRoute} />
           <Route component={NotFoundRoute} />
-        </main>
-        <footer>
-          <Footer />
-        </footer>
+        </Switch>
       </Context.Provider>
     );
   }
