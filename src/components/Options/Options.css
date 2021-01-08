@@ -1,0 +1,14 @@
+.feelings-options-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.feelings {
+  padding: 18px;
+  border-radius: 25px;
+  background: transparent;
+  border: 2px solid green;
+  margin-left: 20px;
+  color: black;
+}

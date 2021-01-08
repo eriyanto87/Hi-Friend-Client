@@ -1,13 +1,13 @@
 import React from "react";
 import Home from "../../components/Header/Header";
-import Dashboard from "../../components/Dashboard/Dashboard";
+import Design from "../../components/Design/Design";
 import Footer from "../../components/Footer/Footer";
 
-export default function DashboardRoute() {
+export default function DesignRoute() {
   return (
     <>
       <Home />
-      <Dashboard />
+      <Design />
       <Footer />
     </>
   );

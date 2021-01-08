@@ -1,0 +1,25 @@
+.design {
+  margin: 20px 0;
+  text-align: center;
+  background: #fc9f9f;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 5px 5px 2px thistle;
+}
+
+.designBot {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  justify-content: center;
+  align-self: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  background: #edeaea;
+  width: 50%;
+}
+.designBot input {
+  margin: 10px auto;
+  width: 50%;
+}

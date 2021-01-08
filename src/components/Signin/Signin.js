@@ -23,8 +23,9 @@ export default function Signin() {
       .then((signinReponse) => {
         TokenService.saveAuthToken(signinReponse.authToken);
         console.log(signinReponse);
-        console.log("go to dashboard");
-        history.push("/dashboard");
+        console.log("go to chat");
+        context.setUser(username.value);
+        history.push("/chat");
       })
       .catch((res) => {
         console.log(res);
