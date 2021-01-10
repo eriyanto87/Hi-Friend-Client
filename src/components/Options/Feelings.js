@@ -4,7 +4,7 @@ import "./Options.css";
 const FeelingsOptions = (props) => {
   console.log(props.actionProvider);
   const options = [
-    { text: "Great!", handler: props.actionProvider.handleGood, id: 1 },
+    { text: "Great!", handler: props.actionProvider.handleGreat, id: 1 },
     { text: "Bad", handler: props.actionProvider.handleBad, id: 2 },
     { text: "Average", handler: props.actionProvider.handleAverage, id: 3 },
   ];
