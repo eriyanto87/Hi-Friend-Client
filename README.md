@@ -1,10 +1,18 @@
 # Hi, Friend App
 
 - [Live_App](https://hifriend.vercel.app/)
-- [Server_Side_Repo](https://github.com/eriyanto87/hi-friend-api)
+- [Server_Side_Repo](https://github.com/eriyanto87/hi-friend-server)
 - [Client_Side_Repo](https://github.com/eriyanto87/hi-friend-client)
 
 ## Description
+
+## Screenshots
+
+![!Landing_Route]
+![Registration_Route]
+![Login_Route]
+![Design_Route]
+![Chat_Route]
 
 ### Front-end technologies
 
