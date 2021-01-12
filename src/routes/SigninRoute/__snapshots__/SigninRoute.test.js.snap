@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sign in component Sign in Snapshot 1`] = `
+Array [
+  <div
+    className="home"
+  >
+    <div>
+      <a
+        href="/"
+      >
+        Go To Home
+      </a>
+    </div>
+  </div>,
+  <div
+    className="signin-container"
+  >
+    <section
+      className="signin-header"
+    >
+      <h1>
+        Sign In Form
+      </h1>
+      <p>
+         
+        Username: Demo 
+        <br />
+        Password: Password123!
+      </p>
+    </section>
+    <form
+      onSubmit={[Function]}
+    >
+      <section
+        className="signin-form"
+      >
+        <p>
+          <input
+            name="username"
+            placeholder="Username"
+            required={true}
+            type="text"
+          />
+        </p>
+        <p>
+          <input
+            name="password"
+            placeholder="Password"
+            required={true}
+            type="password"
+          />
+        </p>
+      </section>
+      <button>
+        Sign In
+      </button>
+    </form>
+  </div>,
+  <p
+    className="signin-section"
+  >
+    Don't have an account? 
+    <a
+      href="/registration"
+    >
+      Register Here
+    </a>
+  </p>,
+  <div
+    className="footer"
+  >
+    © 2020
+  </div>,
+]
+`;

@@ -41,7 +41,6 @@ class App extends Component {
           });
         });
     },
-    name: "evi",
   };
 
   componendDidMount() {}

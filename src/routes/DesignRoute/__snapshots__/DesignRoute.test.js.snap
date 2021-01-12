@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Design Route Design Snapshot 1`] = `
+Array [
+  <div
+    className="home"
+  >
+    <div>
+      <a
+        href="/"
+      >
+        Go To Home
+      </a>
+    </div>
+  </div>,
+  <section
+    className="design"
+  >
+    <h1>
+      Hi, 
+    </h1>
+    <section
+      className="designBot"
+    >
+      <p>
+        This is the place to design your bot!
+      </p>
+      <p>
+        Please input in your bot name here
+      </p>
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          name="botName"
+          placeholder="Bot Name"
+          required={true}
+          type="text"
+        />
+        <p>
+          <button
+            type="submit"
+          >
+            I want to chat with my bot!
+          </button>
+        </p>
+      </form>
+    </section>
+  </section>,
+  <div
+    className="footer"
+  >
+    © 2020
+  </div>,
+]
+`;

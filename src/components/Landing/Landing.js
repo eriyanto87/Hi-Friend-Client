@@ -17,7 +17,7 @@ export default function Landing() {
             Hi, Friend! Welcome to my app. I am a chatbot! Please sign in using
             these sign in credentials.
             <p>
-              Username: DemoAcc <br />
+              Username: Demo <br />
               Password: Password123!
               <br />
               <Link to={{ pathname: `/signin` }}>

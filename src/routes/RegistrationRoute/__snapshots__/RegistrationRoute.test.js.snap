@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registration Route Registration Snapshot 1`] = `
+Array [
+  <div
+    className="home"
+  >
+    <div>
+      <a
+        href="/"
+      >
+        Go To Home
+      </a>
+    </div>
+  </div>,
+  <div
+    className="registration-container"
+  >
+    <section
+      className="registration-header"
+    >
+      <h1>
+        Register
+      </h1>
+      <p>
+        Create your account. It's free and only takes a minute!
+      </p>
+    </section>
+    <form
+      onSubmit={[Function]}
+    >
+      <section
+        className="name"
+      >
+        <p>
+          <input
+            name="first"
+            placeholder="First Name"
+            required={true}
+            type="text"
+          />
+        </p>
+        <p>
+          <input
+            name="last"
+            placeholder="Last Name"
+            required={true}
+            type="text"
+          />
+        </p>
+      </section>
+      <section
+        className="registration-info"
+      >
+        <p>
+          <input
+            name="username"
+            placeholder="Username"
+            required={true}
+            type="text"
+          />
+        </p>
+        <p>
+          <input
+            name="password"
+            placeholder="Password"
+            required={true}
+            type="password"
+          />
+        </p>
+      </section>
+      <button>
+        Register Now
+      </button>
+    </form>
+  </div>,
+  <p
+    className="signin-section"
+  >
+    Already have an account? 
+    <a
+      href="/signin"
+    >
+      Sign In
+    </a>
+  </p>,
+  <div
+    className="footer"
+  >
+    © 2020
+  </div>,
+]
+`;

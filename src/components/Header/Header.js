@@ -8,7 +8,6 @@ export default function Header() {
   let history = useHistory();
 
   const logout = (context) => {
-    console.log("logout button works!");
     context.setUser("");
     context.setBotName("");
     context.setError("");
@@ -19,7 +18,6 @@ export default function Header() {
   return (
     <Context.Consumer>
       {(context) => {
-        console.log(context.user);
         return (
           <div className="home">
             {TokenService.hasAuthToken() ? (

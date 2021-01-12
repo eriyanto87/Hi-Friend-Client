@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Route Landing Snapshot 1`] = `
+Array [
+  <div
+    className="landing"
+  >
+    <section
+      className="messenger"
+    >
+      <header
+        className="messenger-header"
+      >
+        <h1
+          className="messenger-title"
+        >
+          Hi, Friend!
+        </h1>
+      </header>
+    </section>
+    <main
+      className="chat"
+    >
+      <section
+        className="left-message-bubble"
+      >
+        <div
+          className="bot-name"
+        >
+          BOT
+        </div>
+        <p
+          className="message"
+        >
+          Hi, Friend! Welcome to my app. I am a chatbot! Please sign in using these sign in credentials.
+          <p>
+            Username: Demo 
+            <br />
+            Password: Password123!
+            <br />
+            <a
+              href="/signin"
+              onClick={[Function]}
+            >
+              <button>
+                 Sign in 
+              </button>
+            </a>
+          </p>
+        </p>
+      </section>
+      <section
+        className="left-message-bubble"
+      >
+        <div
+          className="bot-name"
+        >
+          BOT
+        </div>
+        <p
+          className="message"
+        >
+          You can also click on the Register button below to sign up for an account if you choose not to sign in using our demo account!
+          <a
+            href="/registration"
+            onClick={[Function]}
+          >
+            <button>
+               Register 
+            </button>
+          </a>
+        </p>
+      </section>
+    </main>
+    <form
+      className="input-area"
+    >
+      <input
+        className="input"
+        placeholder="Type your message here..."
+        type="text"
+      />
+      <button
+        className="send"
+      >
+        SEND
+      </button>
+    </form>
+  </div>,
+  <div
+    className="footer"
+  >
+    © 2020
+  </div>,
+]
+`;

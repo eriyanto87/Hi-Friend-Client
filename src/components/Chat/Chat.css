@@ -1,16 +1,9 @@
 .botchat {
   text-align: center;
-  /* background: #edeaea;
-  border-radius: 8px;
-  width: 75%; */
-  /* margin: 35px auto; */
-  /* background-color: #edeaea; */
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* box-shadow: 5px 5px 2px thistle;
-  border: 1px solid black; */
 }
 
 .react-chatbot-kit-chat-header {

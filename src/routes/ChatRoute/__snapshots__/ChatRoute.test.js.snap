@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat Route ChatSnapshot 1`] = `
+Array [
+  <div
+    className="home"
+  >
+    <div>
+      <a
+        href="/"
+      >
+        Go To Home
+      </a>
+    </div>
+  </div>,
+  <h1
+    className="chatcomponent"
+  >
+    Hi, 
+  </h1>,
+  <p
+    className="chatcomponent"
+  >
+    <a
+      href="/design"
+      onClick={[Function]}
+    >
+      <button>
+        Click here to name my chatbot
+      </button>
+    </a>
+  </p>,
+  <div
+    className="botchat"
+  >
+    <div
+      className="react-chatbot-kit-chat-container"
+    >
+      <div
+        className="react-chatbot-kit-chat-inner-container"
+      >
+        <div
+          className="react-chatbot-kit-chat-header"
+        >
+          Conversation with new best friend
+        </div>
+        <div
+          className="react-chatbot-kit-chat-message-container"
+        >
+          <div
+            style={
+              Object {
+                "paddingBottom": "15px",
+              }
+            }
+          />
+        </div>
+        <div
+          className="react-chatbot-kit-chat-input-container"
+        >
+          <form
+            className="react-chatbot-kit-chat-input-form"
+            onSubmit={[Function]}
+          >
+            <input
+              className="react-chatbot-kit-chat-input"
+              onChange={[Function]}
+              placeholder="Write your message here"
+              value=""
+            />
+            <button
+              className="react-chatbot-kit-chat-btn-send"
+              style={
+                Object {
+                  "backgroundColor": "#669db3ff",
+                }
+              }
+            >
+              <svg
+                className="react-chatbot-kit-chat-btn-send-icon"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="footer"
+  >
+    © 2020
+  </div>,
+]
+`;

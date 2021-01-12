@@ -20,17 +20,12 @@ export default class Chat extends Component {
         },
       });
       const json = await response.json();
-      console.log(json);
       this.context.setBotName(json.bot_name);
     } catch (error) {
-      console.log(error);
       this.context.setError(error);
     }
   }
   render() {
-    console.log(config.API_ENDPOINT);
-    console.log(this.context);
-    console.log(this.context.botName);
     return (
       <>
         <h1 className="chatcomponent">Hi, {this.context.user}</h1>
@@ -48,7 +43,6 @@ export default class Chat extends Component {
             config={chatconfig}
             actionProvider={ActionProvider}
             messageParser={MessageParser}
-            context={this.context}
           />
         </div>
       </>

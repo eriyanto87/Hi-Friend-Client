@@ -9,8 +9,6 @@ export default function Registration() {
 
   const handleSubmit = (e, context) => {
     e.preventDefault();
-    console.log(history);
-    console.log("registration button is clicked");
     const { username, password, first, last } = e.target;
     const postUserData = {
       username: username.value,
@@ -19,15 +17,12 @@ export default function Registration() {
       last_name: last.value,
     };
 
-    console.log(postUserData);
-
     context.setError(null);
     AuthApiService.postUser(postUserData)
       .then((user) => {
         history.push("/signin");
       })
       .catch((res) => {
-        console.log(res);
         context.setError(res.error);
       });
   };
@@ -35,7 +30,6 @@ export default function Registration() {
   return (
     <Context.Consumer>
       {(context) => {
-        console.log(context);
         return (
           <>
             <div className="registration-container">

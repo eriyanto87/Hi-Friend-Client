@@ -1,15 +1,10 @@
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
-import Context from "../../Context/Context";
 import FeelingsOptions from "../Options/Feelings";
 import YesOrNo from "../Options/YesOrNo";
 
-// export default function ChatConfig() {
-//   return (
-//     <Context.Consumer>
-//       {(context) => {
-const botName = "new best friend"; //this.context.botName;
-const user = "Friend"; //this.context.user;
+const botName = "new best friend";
+const user = "Friend";
 
 const chatconfig = {
   user: user,
@@ -48,9 +43,5 @@ const chatconfig = {
     },
   ],
 };
-//         return <>{chatconfig}</>;
-//       }}
-//     </Context.Consumer>
-//   );
-// }
+
 export default chatconfig;

@@ -12,7 +12,6 @@ export default function Design() {
     const botData = {
       bot_name: bot,
     };
-    console.log(botData);
     context.postBotName(botData);
     history.push("/chat");
   };
@@ -20,7 +19,6 @@ export default function Design() {
   return (
     <Context.Consumer>
       {(context) => {
-        console.log(context.user);
         const user = context.user;
         return (
           <section className="design">

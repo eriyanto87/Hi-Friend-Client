@@ -1,7 +1,6 @@
 import React from "react";
 import AuthApiService from "../../services/auth-api-service";
 import TokenService from "../../services/token-service";
-import config from "../../config";
 import Context from "../../Context/Context";
 import { useHistory } from "react-router-dom";
 import "./Signin.css";
@@ -13,8 +12,6 @@ export default function Signin() {
     e.preventDefault();
     const { username, password } = e.target;
     context.setError(null);
-    console.log(username.value, password.value);
-    console.log(history);
 
     AuthApiService.postLogin({
       username: username.value,
@@ -22,14 +19,10 @@ export default function Signin() {
     })
       .then((signinReponse) => {
         TokenService.saveAuthToken(signinReponse.authToken);
-        console.log(signinReponse);
-        console.log("go to chat");
         context.setUser(username.value);
         history.push("/chat");
       })
       .catch((res) => {
-        console.log(res);
-        console.log(res.message);
         context.setError(res.error);
       });
   };
@@ -37,12 +30,16 @@ export default function Signin() {
   return (
     <Context.Consumer>
       {(context) => {
-        console.log(context.name);
         return (
           <>
             <div className="signin-container">
               <section className="signin-header">
                 <h1>Sign In Form</h1>
+                <p>
+                  {" "}
+                  Username: Demo <br />
+                  Password: Password123!
+                </p>
               </section>
               <form onSubmit={(e) => handleSignin(e, context)}>
                 <section className="signin-form">
