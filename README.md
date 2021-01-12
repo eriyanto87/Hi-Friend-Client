@@ -9,10 +9,10 @@
 ## Screenshots
 
 ![!Landing_Route](./src/images/Landing-Route.png)
-![Registration_Route]
-![Login_Route]
-![Design_Route]
-![Chat_Route]
+![Registration_Route](./src/images/Registration-Route.png)
+![Login_Route](./src/images/SignIn-Route.png)
+![Design_Route](./src/images/Design-Route.png)
+![Chat_Route](./src/images/Chat-Route.png)
 
 ### Front-end technologies
 
