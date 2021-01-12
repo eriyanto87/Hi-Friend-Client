@@ -8,7 +8,7 @@
 
 ## Screenshots
 
-![!Landing_Route]
+![!Landing_Route]("./src/images/Landing-Route.png")
 ![Registration_Route]
 ![Login_Route]
 ![Design_Route]

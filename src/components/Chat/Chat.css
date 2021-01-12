@@ -4,6 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 75%;
+  margin: 0px auto;
 }
 
 .react-chatbot-kit-chat-header {
@@ -15,7 +17,6 @@
 .react-chatbot-kit-chat-bot-message {
   margin: 0px;
   border-radius: 18px;
-  background: lightgrey;
   padding: 15px;
   background: lightgrey;
   border: 1px solid black;
@@ -29,6 +30,7 @@
   width: 80%;
   margin-bottom: 20px;
 }
+
 .chatcomponent {
   text-align: center;
 }

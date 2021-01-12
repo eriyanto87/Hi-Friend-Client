@@ -1,14 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Hachi Maru Pop", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: darkgrey;
+  background-image: url("../src/images/y-so-serious-white.png");
   background-size: 100%;
+  font-weight: 500;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.botchat {
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-chatbot-kit-chat-header {
+  background: #fc9f9f;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin: 0px;
+  border-radius: 18px;
+  padding: 15px;
+  background: lightgrey;
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+.react-chatbot-kit-chat-container {
+  border: 1px solid black;
+  box-shadow: 5px 5px 2px thistle;
+  border-radius: 8px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.chatcomponent {
+  text-align: center;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  margin-bottom: 0;
+}
+
+@media all and (min-width: 800px) {
+  .react-chatbot-kit-chat-container {
+    width: 50%;
+  }
 }

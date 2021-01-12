@@ -2,6 +2,11 @@ import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 import FeelingsOptions from "../Options/Feelings";
 import YesOrNo from "../Options/YesOrNo";
+import TopicsOptions from "../Options/Topics";
+import PetsOptions from "../Options/Pets";
+import BetterOrWorse from "../Options/BetterOrWorse";
+import Error from "../Options/Error";
+import ChatOptions from "../Options/ChatOptions";
 
 const botName = "new best friend";
 const user = "Friend";
@@ -20,17 +25,14 @@ const chatconfig = {
   },
   initialMessages: [
     createChatBotMessage(
-      `Hi ${user}. I'm your ${botName}! 
-      You can tell me anything that is on your mind.`
+      `Hi ${user}! I'm your ${botName}.
+       You can tell me anything and I will try to answer!`
     ),
-    createChatBotMessage(
-      "How is your day going? (Please type out your answer)",
-      {
-        withAvatar: true,
-        delay: 2000,
-        widget: "feelingsOptions",
-      }
-    ),
+    createChatBotMessage("How is your day going?", {
+      withAvatar: true,
+      delay: 2000,
+      widget: "feelingsOptions",
+    }),
   ],
   widgets: [
     {
@@ -40,6 +42,26 @@ const chatconfig = {
     {
       widgetName: "YesOrNo",
       widgetFunc: (props) => <YesOrNo {...props} />,
+    },
+    {
+      widgetName: "Topics",
+      widgetFunc: (props) => <TopicsOptions {...props} />,
+    },
+    {
+      widgetName: "Pets",
+      widgetFunc: (props) => <PetsOptions {...props} />,
+    },
+    {
+      widgetName: "BetterOrWorse",
+      widgetFunc: (props) => <BetterOrWorse {...props} />,
+    },
+    {
+      widgetName: "ChatOptions",
+      widgetFunc: (props) => <ChatOptions {...props} />,
+    },
+    {
+      widgetName: "Error",
+      widgetFunc: (props) => <Error {...props} />,
     },
   ],
 };

@@ -31,6 +31,7 @@ export default function Landing() {
           <p className="message">
             You can also click on the Register button below to sign up for an
             account if you choose not to sign in using our demo account!
+            <br />
             <Link to={{ pathname: `/registration` }}>
               <button> Register </button>
             </Link>

@@ -1,11 +1,10 @@
 import React from "react";
 import "./Options.css";
 
-const FeelingsOptions = (props) => {
+const BetterOrWorse = (props) => {
   const options = [
-    { text: "Great!", handler: props.actionProvider.handleGreat, id: 1 },
-    { text: "Bad", handler: props.actionProvider.handleBad, id: 2 },
-    { text: "Average", handler: props.actionProvider.handleAverage, id: 3 },
+    { text: "Better", handler: props.actionProvider.handleBetter, id: 1 },
+    { text: "Worse", handler: props.actionProvider.handleWorse, id: 2 },
   ];
 
   const optionMarkup = options.map((option) => (
@@ -17,4 +16,4 @@ const FeelingsOptions = (props) => {
   return <div className="feelings-options-container">{optionMarkup}</div>;
 };
 
-export default FeelingsOptions;
+export default BetterOrWorse;

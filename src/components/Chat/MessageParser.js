@@ -46,6 +46,30 @@ class MessageParser {
     if (lowerCase.includes("afternoon")) {
       return this.actionProvider.handleAfternoon();
     }
+    if (lowerCase.includes("pets")) {
+      return this.actionProvider.handlePets();
+    }
+    if (lowerCase.includes("hobby")) {
+      return this.actionProvider.handleHobby();
+    }
+    if (lowerCase.includes("work")) {
+      return this.actionProvider.handleWork();
+    }
+    if (lowerCase.includes("yup")) {
+      return this.actionProvider.handleYup();
+    }
+    if (lowerCase.includes("nope")) {
+      return this.actionProvider.handleNope();
+    }
+    if (lowerCase.includes("better")) {
+      return this.actionProvider.handleBetter();
+    }
+    if (lowerCase.includes("worse")) {
+      return this.actionProvider.handleWorse();
+    }
+    if (lowerCase.includes("alright")) {
+      return this.actionProvider.handleAlright();
+    }
     return this.actionProvider.handleDefault();
   };
 }

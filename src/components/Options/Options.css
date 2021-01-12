@@ -5,10 +5,10 @@
 }
 
 .feelings {
-  padding: 18px;
+  padding: 12px;
   border-radius: 25px;
-  background: transparent;
-  border: 2px solid green;
+  background: lightgrey;
+  border: 2.5px solid #008c76ff;
   margin-left: 20px;
   color: black;
 }
