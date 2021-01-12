@@ -9,7 +9,7 @@
 ## Screenshots
 
 ![!Landing_Route](./src/images/Landing-Route.png)
-![Registration_Route](./src/images/Registration-Route-Cropped.png)
+![Registration_Route](./src/images/Register-Route-Cropped.png)
 ![Login_Route](./src/images/SignIn-Route.png)
 ![Design_Route](./src/images/Design-Route.png)
 ![Chat_Route](./src/images/Chat-Route.png)
