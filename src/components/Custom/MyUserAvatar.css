@@ -1,0 +1,11 @@
+.user-avatar {
+  background-color: #669db3ff;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  font-size: 15px;
+  margin-left: 12.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

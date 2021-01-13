@@ -5,7 +5,6 @@ class MessageParser {
   }
 
   parse = (message) => {
-    console.log(message);
     const lowerCase = message.toLowerCase();
 
     if (lowerCase.includes("great")) {
@@ -69,6 +68,12 @@ class MessageParser {
     }
     if (lowerCase.includes("alright")) {
       return this.actionProvider.handleAlright();
+    }
+    if (lowerCase.includes("sense")) {
+      return this.actionProvider.handleError();
+    }
+    if (lowerCase.includes("end chat")) {
+      return this.actionProvider.handleEndChat();
     }
     return this.actionProvider.handleDefault();
   };

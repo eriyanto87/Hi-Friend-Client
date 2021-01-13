@@ -7,6 +7,7 @@ import config from "../../config";
 import MessageParser from "./MessageParser";
 import Context from "../../Context/Context";
 import TokenService from "../../services/token-service";
+import styled from "styled-components";
 import "../../App.css";
 import "../../index.css";
 import "./Chat.css";
@@ -28,11 +29,6 @@ export default class Chat extends Component {
     }
   }
   render() {
-    // const containerStyle = {
-    //   width: "800px",
-    //   border: "1px solid green",
-    // };
-
     return (
       <div>
         <h1 className="chatcomponent">Hi, {this.context.user}</h1>
@@ -44,6 +40,10 @@ export default class Chat extends Component {
               <button>Click here to name my chatbot</button>
             </Link>
           )}
+        </p>
+        <p className="instructions">
+          You can end chat simply by typing{" "}
+          <span className="instruction">"end chat"</span>
         </p>
         <div className="botchat">
           <Chatbot

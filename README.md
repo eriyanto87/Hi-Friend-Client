@@ -6,6 +6,8 @@
 
 ## Description
 
+This is a full stack project that showcases my ability to create a basic chat bot along with user authentication.
+
 ## Screenshots
 
 ![!Landing_Route](./src/images/Landing-Route.png)

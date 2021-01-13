@@ -202,6 +202,18 @@ class ActionProvider {
     this.addMessageToBotState(followUpMessage);
   };
 
+  handleError = () => {
+    const messageBetter = this.createChatBotMessage(
+      "I'm sorry if my answer doesn't make any sense at times. Do you still want to chat with me?",
+      {
+        widget: "ChatOptions",
+        withAvatar: true,
+        delay: 3000,
+      }
+    );
+    this.addMessageToBotState(messageBetter);
+  };
+
   handleDefault = () => {
     const message = this.createChatBotMessage(`Tell me more!`, {
       delay: 2000,
@@ -209,16 +221,6 @@ class ActionProvider {
     });
 
     this.addMessageToBotState(message);
-
-    const messageBetter = this.createChatBotMessage(
-      "I'm sorry if my answer doesn't make any sense at times. Do you still want to chat with me?",
-      {
-        widget: "ChatOptions",
-        withAvatar: true,
-        delay: 5000,
-      }
-    );
-    this.addMessageToBotState(messageBetter);
   };
 
   addMessageToBotState = (messages) => {

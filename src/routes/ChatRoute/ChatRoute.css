@@ -21,14 +21,6 @@
   font-size: 18px;
 }
 
-.react-chatbot-kit-chat-container {
-  border: 1px solid black;
-  box-shadow: 5px 5px 2px thistle;
-  border-radius: 8px;
-  width: 80%;
-  margin-bottom: 20px;
-}
-
 .chatcomponent {
   text-align: center;
 }
@@ -37,8 +29,9 @@
   margin-bottom: 0;
 }
 
-@media all and (min-width: 800px) {
+/* @media all and (min-width: 800px) {
   .react-chatbot-kit-chat-container {
+    position: relative;
     width: 50%;
   }
-}
+} */

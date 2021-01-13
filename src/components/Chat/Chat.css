@@ -1,4 +1,4 @@
-/* .botchat {
+.botchat {
   text-align: center;
   color: black;
   display: flex;
@@ -19,9 +19,16 @@
   margin: 0px;
   border-radius: 18px;
   padding: 15px;
-  background: lightgrey;
-  border: 1px solid black;
+  border: 1px solid darkgrey;
   font-size: 20px;
+}
+
+.react-chatbot-kit-user-chat-message {
+  font-size: 20px;
+  border-radius: 18px;
+  border: 1px solid black;
+  padding: 15px;
+  background-color: white;
 }
 
 .react-chatbot-kit-chat-container {
@@ -29,8 +36,9 @@
   box-shadow: 5px 5px 2px thistle;
   border-radius: 8px;
   height: 85%;
-  /* width: 90%; */
-/* margin-bottom: 20px;
+  position: relative;
+  width: 90%;
+  margin-bottom: 20px;
 }
 
 .chatcomponent {
@@ -41,9 +49,18 @@
   margin-bottom: 0;
 }
 
+.instructions {
+  text-align: center;
+}
+
+.instruction {
+  font-weight: bolder;
+  color: #fc5d5d;
+}
+
 @media all and (min-width: 800px) {
   .react-chatbot-kit-chat-container {
     height: 100%;
-    /* width: 750px; */
-/* }
-} */
+    width: 50%;
+  }
+}
