@@ -14,7 +14,7 @@ This is a full stack project that showcases my ability to create a basic chat bo
 ![Registration_Route](./src/images/Register-Route-Cropped.png)
 ![Login_Route](./src/images/SignIn-Route.png)
 ![Design_Route](./src/images/Design-Route.png)
-![Chat_Route](./src/images/Chat-Route.png)
+![Chat_Route](./src/images/Chat-Route-Updated.png)
 
 ### Front-end technologies
 
