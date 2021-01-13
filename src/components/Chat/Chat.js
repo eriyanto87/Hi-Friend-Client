@@ -7,6 +7,8 @@ import config from "../../config";
 import MessageParser from "./MessageParser";
 import Context from "../../Context/Context";
 import TokenService from "../../services/token-service";
+import "../../App.css";
+import "../../index.css";
 import "./Chat.css";
 
 export default class Chat extends Component {
@@ -26,8 +28,13 @@ export default class Chat extends Component {
     }
   }
   render() {
+    // const containerStyle = {
+    //   width: "800px",
+    //   border: "1px solid green",
+    // };
+
     return (
-      <>
+      <div>
         <h1 className="chatcomponent">Hi, {this.context.user}</h1>
         <p className="chatcomponent">
           {this.context.botName ? (
@@ -40,12 +47,13 @@ export default class Chat extends Component {
         </p>
         <div className="botchat">
           <Chatbot
+            style={{ width: "80%", border: "1px solid green" }}
             config={chatconfig}
             actionProvider={ActionProvider}
             messageParser={MessageParser}
           />
         </div>
-      </>
+      </div>
     );
   }
 }
